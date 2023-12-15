@@ -1,2 +1,2 @@
-
-[App Link - Results summary component](https://result-summary-bay.vercel.app/)
+# results-summary-component
+[App Link](https://result-summary-bay.vercel.app/)
