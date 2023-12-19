@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-cream flex align items-center justify-center h-screen">
+    <div class="bg-white rounded-xl m-6 flex flex-col sm:flex-row sm:max-w-2xl">
+      <!-- image section starts here -->
+      <div class="upper-card">
+        <img
+          class="w-full h-full sm:hidden rounded-t-xl"
+          src="./images/image-product-mobile.jpg"
+          alt=""
+        />
+        <img
+          class="w-full h-full hidden sm:block sm:rounded-l-xl"
+          src="./images/image-product-desktop.jpg"
+          alt=""
+        />
+      </div>
+      <!-- image section ends here -->
+
+      <!-- lower-card section starts here -->
+      <div
+        class="sm:w-[600px] flex flex-col items-start justify-center sm:flex-col"
+      >
+        <!-- content part starts here -->
+        <div class="m-5 mt-0">
+          <p
+            class="uppercase tracking-[8px] font-Montserrat text-dark-grayish-blue m-2 sm:mt-0 mt-6 sm:mb-4"
+          >
+            Perfume
+          </p>
+          <h1 class="font-Fraunces font-bold text-4xl m-2 mt-4 mb-4 sm:mb-6">
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p class="m-2 mt-6 sm:mb-3 font-Montserrat text-dark-grayish-blue text-sm">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+        </div>
+        <!-- content part ends here -->
+
+        <!-- price part starts here -->
+        <div class="flex m-4 ml-6 mt-0 items-center">
+          <p class="font-Fraunces font-bold text-dark-cyan text-4xl mr-3">
+            $149.99
+          </p>
+          <p class="text-dark-grayish-blue line-through ml-3">$169.99</p>
+        </div>
+        <!-- price part ends here -->
+
+        <!-- cart button -->
+        <div
+          class="bg-dark-cyan w-[320px] sm:w-[270px] h-12 mb-6 sm:mt-6 sm:mb-0 ml-6 mr-6 mt-0 sm:ml-6 rounded-lg flex items-center justify-center p-4 hover:cursor-pointer hover:bg-green-950"
+        >
+          <img class="" src="./images/icon-cart.svg" alt="" />
+          <p class="text-white font-bold p-2 text-center">Add to Cart</p>
+        </div>
+        <!-- cart button -->
+      </div>
+    </div>
+
+    <!-- lower-card section starts here -->
+  </body>
+</html>
